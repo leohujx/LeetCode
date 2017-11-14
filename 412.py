@@ -5,7 +5,7 @@
 # https://leetcode.com/problems/fizz-buzz/description/
 
 '''
-大水题
+超级大水题
 '''
 
 class Solution(object):
