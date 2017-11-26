@@ -33,7 +33,7 @@ class Solution(object):
             return []
         self.dfs(root)
         res = []
-        #print self.rq
+        # print self.rq
         tmp = sorted(self.rq.items(), key=lambda x:x[1], reverse=True)
         mmax = tmp[0][1]
         for x in tmp:
